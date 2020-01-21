@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profile</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="row my-2">
+            <div class="col-lg-8 order-lg-2">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a href="./img/download.png" data-target="#profile" data-toggle="tab" class="nav-link active">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" data-target="#edit" data-toggle="tab" class="nav-link">Edit</a>
+                    </li>
+                </ul>
+                <div class="tab-content py-4">
+                    <div class="tab-pane active" id="profile">
+                        <h5 class="mb-3">User Profile</h5>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h6>About</h6>
+                                <p> I am a Farmer</p>
+                                <h6>Crops</h6>
+                                <p> I sell variety of fresh crops.</p>
+                            </div>
+                            <div class="col-md-12">
+                                <h5 class="mt-2"><span class="fa fa-clock-o ion-clock float-right"></span> Recent Activity</h5>
+                                <table class="table table-sm table-hover table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                Sold 5kg rice at <strong>INR 60/Kg</strong>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Sold 25Kg wheat at <strong>INR 20/Kg</strong>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Sold 2Kg Tomato at <strong>INR 30/Kg</strong>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Sold 50kg Apple at <strong>INR 50/Kg</strong>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <!--/row-->
+                    </div>
+                    <div class="tab-pane" id="edit">
+                        <form role="form">
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">First name</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="text" value="Ram Chandra">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Last name</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="text" value="Kumar">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Email</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="email" value="rck123@gmail.com">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Company</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="text" value="">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Website</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="url" value="">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Address</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="text" value="" placeholder="Street">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label"></label>
+                                <div class="col-lg-6">
+                                    <input class="form-control" type="text" value="" placeholder="City">
+                                </div>
+                                <div class="col-lg-3">
+                                    <input class="form-control" type="text" value="" placeholder="State">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Password</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="password" value="11111122333">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Confirm password</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="password" value="11111122333">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label"></label>
+                                <div class="col-lg-9">
+                                    <input type="reset" class="btn btn-secondary" value="Cancel">
+                                    <input type="button" class="btn btn-primary" value="Save Changes">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 order-lg-1 text-center">
+                <img src="./img/download.png" class="mx-auto img-fluid img-circle d-block" alt="avatar">
+                <h6 class="mt-2">Upload a different photo</h6>
+                <label class="custom-file">
+                    <input type="file" id="file" accept="image/*" onchange="handleFiles(this.files)"class="custom-file-input">
+                    <span class="custom-file-control">Choose file</span>
+                </label>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+<footer class="page-footer font-small blue-grey lighten-5">
+
+    <div style="background-color: #21d192;">
+      <div class="container">
+  
+        <!-- Grid row-->
+        <div class="row py-4 d-flex align-items-center">
+  
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+            <h6 class="mb-0">Get connected with us on social networks!</h6>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-7 text-center text-md-right">
+  
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <i class="fab fa-facebook-f white-text mr-4"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <i class="fab fa-twitter white-text mr-4"> </i>
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic">
+              <i class="fab fa-google-plus-g white-text mr-4"> </i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic">
+              <i class="fab fa-linkedin-in white-text mr-4"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fab fa-instagram white-text"> </i>
+            </a>
+  
+          </div>
+          <!-- Grid column -->
+  
+        </div>
+        <!-- Grid row-->
+  
+      </div>
+    </div>
+  
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5">
+  
+      <!-- Grid row -->
+      <div class="row mt-3 dark-grey-text">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+  
+          <!-- Content -->
+          <h6 class="text-uppercase font-weight-bold">CDK Global</h6>
+          <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque maiores officia repellendus perferendis modi error. Laboriosam hic praesentium suscipit .</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+  
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Users</h6>
+          <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a class="dark-grey-text" href="#!">Farmer</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#!">Buyer</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#!">Farmer</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#!">Buyer</a>
+          </p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+  
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+          <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a class="dark-grey-text" href="#!">Your Account</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#!">Become an Affiliate</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#!">Shipping Rates</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#!">Help</a>
+          </p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+  
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <i class="fas fa-home mr-3"></i> Navi Mumbai, M 10012, India</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> enquiries@cdkglobal.com</p>
+          <p>
+            <i class="fas fa-print mr-3"></i> 9876543219</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center text-black-50 py-3">© 2020 Copyright:
+      <a class="dark-grey-text" href="https://www.cdkglobal.com/us"></a>CDK Global</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
